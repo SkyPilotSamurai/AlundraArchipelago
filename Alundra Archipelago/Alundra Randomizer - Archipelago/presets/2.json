@@ -1,0 +1,33 @@
+{
+    "gameSettings": {
+        "progressiveItems": true
+    },
+    "randomizerSettings": {
+        "fixedItemSources": {
+            "Naomi's Shop: Item #4": "Flail upgrade",
+            "Lurvy's Shop: Item #5": "Sword upgrade",
+            "Lurvy's Shop: Item obtained after repairing Broken Armor": "Bow upgrade",
+            "Merrick's Shop: Item traded for 15 Gilded Falcons": "Armor upgrade",
+            "Merrick's Shop: Item traded for 20 Gilded Falcons": "Boots upgrade",
+            "Merrick's Shop: Item traded for 25 Gilded Falcons": "Earth Magic upgrade",
+            "Merrick's Shop: Item traded for 30 Gilded Falcons": "Water Magic upgrade",
+            "Merrick's Shop: Item traded for 35 Gilded Falcons": "Fire Magic upgrade",
+            "Merrick's Shop: Item traded for 40 Gilded Falcons": "Wind Magic upgrade"
+        },
+        "itemGilderValues": {
+            "Sword upgrade": 200,
+            "Flail upgrade": 100,
+            "Bow upgrade": 150,
+            "Armor upgrade": 150,
+            "Boots upgrade": 150,
+            "Earth Magic upgrade": 200,
+            "Water Magic upgrade": 200,
+            "Fire Magic upgrade": 200,
+            "Wind Magic upgrade": 200
+        },
+        "startingInventory": [
+            "Dagger"
+        ],
+        "allowUnsolvableSeeds": true
+    }
+}

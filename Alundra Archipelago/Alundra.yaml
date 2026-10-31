@@ -1,0 +1,75 @@
+# Alundra Settings
+# Name is what identifies you in the multiworld - change it to your username
+name: Alundra
+game: Alundra
+
+# Every item has its own count option below - just edit the number
+Alundra:
+  life_vessel_count: 40 # Lower if you want a challenge (default 40)
+  magic_seed_count: 4
+  gilded_falcon_count: 80 # High on purpose, Merrick's shop contains possible important checks up till 35 falcons
+  herbs_count: 30
+  strength_tonic_count: 5
+  strength_elixir_count: 5
+  magic_elixir_count: 5
+  wonder_essence_count: 2
+
+  # Crests, most items doubled to prevent BK
+  ruby_crest_count: 2
+  sapphire_crest_count: 2
+  topaz_crest_count: 2
+  agate_crest_count: 2
+  garnet_crest_count: 2
+  emerald_crest_count: 2
+  diamond_crest_count: 2
+
+  # Weapon upgrades 
+  sword_count: 4 
+  flail_count: 2 
+  bow_count: 2
+  fire_wand_count: 2
+  ice_wand_count: 2
+
+  # Armor upgrades, Less armor = more challenge
+  armor_count: 3
+
+  # Boots
+  long_boots_count: 2
+  merman_boots_count: 2
+  charm_boots_count: 1
+
+  # Bomb
+  mining_bomb_count: 2
+
+  # Capes
+  sand_cape_count: 2
+  aqua_cape_count: 2
+
+  # Power Glove / Spring Bean
+  power_glove_count: 2
+  spring_bean_count: 2
+
+  # Gilder
+  gilder_count: 30 # Adds 30 Gilder
+  gilder_10_count: 0 
+  gilder_5_count: 0 
+  gilder_1_count: 0
+
+  # Progression items / locked checks
+  tree_gem_count: 2
+  bouquet_count: 2
+  broken_armor_count: 2
+  small_key_count: 2
+  secret_pass_count: 2
+
+  # Magic upgrades
+  earth_magic_count: 2
+  water_magic_count: 2
+  fire_magic_count: 2
+  wind_magic_count: 2
+
+  # Accessories
+  navas_charm_count: 1
+  olgas_ring_count: 1
+  silver_armlet_count: 1
+  recovery_ring_count: 1

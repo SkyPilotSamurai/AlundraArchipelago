@@ -1,0 +1,21 @@
+Credits to Dinopony for the Randomizer!
+
+------------------------------------------------
+Host Like you would any Archipelago custom world
+------------------------------------------------
+1. Install alundra.apworld by double clicking it (must have Archipelago installed)
+2. Locate your Archipelago install folder and put the alundra.yaml file into Archipelago/players folder and edit your username/settings into the file
+3. Place any other .yaml for other players into the same folder
+4. Then double click Generate.exe found in the Archipelago folder (This generates the game setup to Archipelago/output)
+5. Go online to https://archipelago.gg/uploads and upload the file found in Archipelago/output
+6. Create online room, and download the Alundra patch, place the patch in the "Alundra Randomizer - Archipelago" folder
+7. Open the randomizer and press enter (Make sure you have "Alundra US 1.1.bin" renamed to "input.bin" in that folder)
+8. Open the Arcipelago Launcher on your computer, then open the Alundra Client and connect to the online room using the room number
+9. Open Bizhawk and boot the Alundra randomized rom
+10. Naviagate the Bizhawk menu tools/lua console and click the folder icon then open the alundra_connector found in Achipelago/data/lua, and you're done
+
+Skip step 6 patch download and the other steps you are hosting, but not playing Alundra yourself
+
+Edit the .yaml file if you'd like to change any settings, lower armor or life vessel count for more of a challenge 
+The yaml can also be edited and exported from the Achipelago Launcher, tool - options creator
+

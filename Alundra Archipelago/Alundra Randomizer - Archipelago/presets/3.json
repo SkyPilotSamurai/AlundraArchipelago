@@ -1,0 +1,25 @@
+{
+    "gameSettings": {
+        "progressiveItems": true,
+        "startingGold": 9999
+    },
+    "randomizerSettings": {
+        "fixedItemSources": {
+            "Naomi's Shop: Item #4": "Iron Flail",
+            "Lurvy's Shop: Item #5": "Sword",
+            "Lurvy's Shop: Item obtained after repairing Broken Armor": "Hunter's Bow",
+            "Merrick's Shop: Item traded for 15 Gilded Falcons": "Leather Armor",
+            "Merrick's Shop: Item traded for 20 Gilded Falcons": "Long Boots",
+            "Merrick's Shop: Item traded for 25 Gilded Falcons": "Earth Scroll",
+            "Merrick's Shop: Item traded for 30 Gilded Falcons": "Water Scroll",
+            "Merrick's Shop: Item traded for 35 Gilded Falcons": "Fire Scroll",
+            "Merrick's Shop: Item traded for 40 Gilded Falcons": "Wind Scroll"
+        },
+        "startingInventory": [
+            "Dagger",
+            "Cloth Armor",
+            "Short Boots"
+        ],
+        "allowUnsolvableSeeds": true
+    }
+}

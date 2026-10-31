@@ -1,0 +1,138 @@
+{
+    "gameSettings": {
+        // If true, the game balance from the japanese version is used instead of the balance edited
+        // by Working Designs for the US version. This mostly changes enemies HP and damage.
+        "originalGameBalance": true,
+
+        // If true, you won't have to do Berue's memory minigame to activate megaliths, as they will be activated
+        // on game start. You still have to visit each megalith to unlock the ability to come back there later.
+        "megalithsEnabledOnStart": true,
+
+        // If true, all gates in Lake Shrine exterior & interior will be open right away, allowing the player
+        // to simply go forward to reach the final boss once all crests are collected & placed
+        "skipLastDungeon": true,
+
+        // If true, each boots only give their own effects instead of also giving all previous tiers effects
+        "splitBootsEffects": true,
+
+        // If true, equipment with tiers (weapons, armors and magic) are replaced by "item upgrades" giving
+        // the next tier for that category instead of giving a specific item
+        "progressiveItems": true,
+
+        // The amount of times you need to die in order to be able to get King Snow's item
+        "kingSnowDeathCount": 0,
+
+        /// Casino win counts required on each minigame in order to obtain the second reward
+        "casinoWinCountForLastReward": 1,
+
+        // Initial health when starting the game
+        "startingHealth": 10,
+
+        // Initial mana when starting the game
+        "startingMana": 1,
+
+        // Initial golds when starting the game
+        "startingGold": 0
+    },
+
+    "randomizerSettings": {
+        // If false, the randomizer program will forbid the generation of a full spoiler log, and will only
+        // output the initial settings in that file instead of the full contents of all item sources.
+        "allowSpoilerLog": true,
+
+        // If true, the logic-based "assumed fill" algorithm is bypassed entirely and items are placed in a
+        // purely random fashion across all item sources.
+        "allowUnsolvableSeeds": true,
+
+        // Items initially owned when starting the game
+        "startingInventory": [
+            "Dagger",
+            "Cloth Armor",
+            "Short Boots"
+        ],
+
+        // The amount of crests to find to be able to reach Lake Shrine. Random crests will be picked and added to
+        // the item distribution. The excluded ones will be automatically placed on their corresponding pedestals on
+        // game start.
+        "crestCount": 7,
+
+        // A dictionary used to define item sources that will always contain the same item
+        "fixedItemSources": {
+        },
+
+        // An array used to define item sources that will never contain an item required for progression
+        "itemSourcesWithoutProgression": [
+            "Merrick's Shop: Item traded for 40 Gilded Falcons (Recovery Ring)",
+            "Merrick's Shop: Item traded for 45 Gilded Falcons (Life Vessel)",
+            "Merrick's Shop: Item traded for 50 Gilded Falcons (Spirit Wand)"
+        ],
+        
+        // What items can fill re-purchasable items in shop, dupelicates increase odds
+        "shopFillerItems": [
+            "Herbs", "Herbs", "Herbs", "Herbs", "Herbs",
+            "Strength Tonic", "Strength Tonic", "Strength Tonic", "Strength Tonic", "Strength Tonic",
+            "Strength Elixyr", "Strength Elixyr", "Strength Elixyr", "Strength Elixyr", "Strength Elixyr",
+            "Magic Elixyr", "Magic Elixyr", "Magic Elixyr", "Magic Elixyr", "Magic Elixyr",
+            "Wonder Essence", "Wonder Essence", "Wonder Essence", "Wonder Essence", "Wonder Essence",
+
+            "Life Vessel",
+            "Magic Seed",
+
+            "Bomb",
+
+            "Flail upgrade",
+
+            "Bow upgrade",
+
+            "Fire Wand",
+            "Ice Wand",
+
+            "Long Boots",
+            "Merman Boots",
+            "Charm Boots",
+
+            "Leather Armor",
+
+            "Earth Magic upgrade",
+            "Water Magic upgrade",
+            "Fire Magic upgrade",
+            "Wind Magic upgrade",
+
+            "Olga's Ring",
+            "Recovery Ring",
+            "Nava's Charm",
+
+            "Spring Bean",
+            "Sand Cape",
+            "Aqua Cape",
+
+            "Tree Gem",
+            "Bouquet"
+        ],
+
+        // Determines the shop price of specific items
+        "itemGilderValues": {
+            "Life Vessel": 250,
+            "Magic Seed": 500,
+            "Ruby Crest": 300,
+            "Sapphire Crest": 350,
+            "Topaz Crest": 400,
+            "Agate Crest": 450,
+            "Garnet Crest": 500,
+            "Emerald Crest": 550,
+            "Diamond Crest": 600,
+            "Charm Boots": 150,
+            "Sluice Key": 25,
+            "Gilded Falcon": 50,
+            "Sword upgrade": 200,        
+            "Bow upgrade": 150,          
+            "Flail upgrade": 100,        
+            "Armor upgrade": 150,        
+            "Boots upgrade": 150,        
+            "Earth Magic upgrade": 200,  
+            "Water Magic upgrade": 200,  
+            "Fire Magic upgrade": 200,   
+            "Wind Magic upgrade": 200
+        }
+    }
+}
